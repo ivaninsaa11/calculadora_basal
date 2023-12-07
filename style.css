@@ -67,7 +67,7 @@ button:active {
 }
 
 #error {
-    color: red;
+    color: rgb(0, 255, 195);
     font-weight: bold;
     display: none;
 }
