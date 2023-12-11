@@ -17,11 +17,12 @@
                 <input class="item1" id="peso" type="number" placeholder="Ingrese peso en kg" />
 
                 <p class="item" id="error">* Debe completar todos los datos</p>
-                <button class="item" id="calcular">Calcular</button>
+                <button class="item" onclick="calcHid()">Calcular</button>
 
-                <p class="item resultado" id="resultado1">71cc/h</p>
-                <p class="item resultado" id="resultado2">m+m/2 : 105cc/h</p>
-
+                <p class="item resultado" id="diario">Volumen diario en cc: 0</p>
+                <p class="item resultado" id="man">Mantenimiento: 0 cc/hr</p>
+                <p class="item resultado" id="mm2" style="display: none;">m+m/2: 0 cc/hr</p>
+                <p class="item resultado" id="tipores">Se utilizó el método Holliday-Segar</p>
             </div>
         </div>
         <div id="detalle">
